@@ -1,0 +1,25 @@
+Vale Map File Format v0.02
+author/creator Ryan Caso
+
+About This File:
+[comments]
+(data type)
+
+Vale Map File Structure:
+MapName(char*)
+Width(int) Height(int)
+tiles[width x height](char)
+
+texture file paths
+
+Current char values[might change to ints]:
+'x' = unwalkable area
+'f' = walkable area
+'t' = tree
+'r' = ruin walls
+'d' = door
+'s' = player start point
+'m' = monster spawn point
+'b' = bow pickup
+'o' = boots pickup [dependant, might not exist]
+'D' = destructibles

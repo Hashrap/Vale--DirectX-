@@ -1,0 +1,4 @@
+MenuStrings
+Start New Game;
+Credits;
+Exit Game;

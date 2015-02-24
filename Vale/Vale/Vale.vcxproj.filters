@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="Level.cpp" />
+    <ClCompile Include="Projectile.cpp" />
+    <ClCompile Include="ProjectileManager.cpp" />
+    <ClCompile Include="Vale.cpp" />
+    <ClCompile Include="Ability.cpp">
+      <Filter>Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackAbility.cpp">
+      <Filter>Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="cGrid.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Equipment.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="FocusShot.cpp">
+      <Filter>Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>ParticleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>ParticleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ValeTexture.cpp">
+      <Filter>BaseFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="ValeImage.cpp">
+      <Filter>BaseFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="ValeGraphics.cpp">
+      <Filter>BaseFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="ValeGame.cpp">
+      <Filter>BaseFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="winmain.cpp">
+      <Filter>BaseFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="Heart.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="audio.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Bar.cpp">
+      <Filter>HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="DXText.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="InteractiveObject.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="LivingEntity.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="MeleeAttack.cpp">
+      <Filter>Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Bow.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Risen.cpp">
+      <Filter>Risen</Filter>
+    </ClCompile>
+    <ClCompile Include="RisenArcher.cpp">
+      <Filter>Risen</Filter>
+    </ClCompile>
+    <ClCompile Include="RisenHound.cpp">
+      <Filter>Risen</Filter>
+    </ClCompile>
+    <ClCompile Include="RisenManager.cpp">
+      <Filter>Risen</Filter>
+    </ClCompile>
+    <ClCompile Include="RisenSpawner.cpp">
+      <Filter>Risen</Filter>
+    </ClCompile>
+    <ClCompile Include="RisenSpawnPoint.cpp">
+      <Filter>Risen</Filter>
+    </ClCompile>
+    <ClCompile Include="RisenWarlock.cpp">
+      <Filter>Risen</Filter>
+    </ClCompile>
+    <ClCompile Include="RisenWarrior.cpp">
+      <Filter>Risen</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>StandardResources</Filter>
+    </ClCompile>
+    <ClCompile Include="RangedAttack.cpp">
+      <Filter>Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="SelfBuffAbility.cpp">
+      <Filter>Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="SplitShotAbility.cpp">
+      <Filter>Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="ValeButton.cpp">
+      <Filter>MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="ValeMainMenu.cpp">
+      <Filter>MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="ValeRectangle.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="WarlockSpell.cpp">
+      <Filter>Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Warden.cpp">
+      <Filter>Entities\Warden</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="Level.h" />
+    <ClInclude Include="Projectile.h" />
+    <ClInclude Include="ProjectileManager.h" />
+    <ClInclude Include="Vale.h" />
+    <ClInclude Include="AttackAbility.h">
+      <Filter>Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Ability.h">
+      <Filter>Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="cGrid.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="constants.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Equipment.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="FocusShot.h">
+      <Filter>Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="gameError.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="ValeResources.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>ParticleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>ParticleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ValeTexture.h">
+      <Filter>BaseFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="ValeImage.h">
+      <Filter>BaseFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="ValeGraphics.h">
+      <Filter>BaseFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="ValeGame.h">
+      <Filter>BaseFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="winmain.h">
+      <Filter>BaseFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Heart.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="audio.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Bar.h">
+      <Filter>HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="DXText.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="InteractiveObject.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="LivingEntity.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="MeleeAttack.h">
+      <Filter>Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Bow.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="RisenWarrior.h">
+      <Filter>Risen</Filter>
+    </ClInclude>
+    <ClInclude Include="Risen.h">
+      <Filter>Risen</Filter>
+    </ClInclude>
+    <ClInclude Include="RisenArcher.h">
+      <Filter>Risen</Filter>
+    </ClInclude>
+    <ClInclude Include="RisenHound.h">
+      <Filter>Risen</Filter>
+    </ClInclude>
+    <ClInclude Include="RisenManager.h">
+      <Filter>Risen</Filter>
+    </ClInclude>
+    <ClInclude Include="RisenSpawner.h">
+      <Filter>Risen</Filter>
+    </ClInclude>
+    <ClInclude Include="RisenSpawnPoint.h">
+      <Filter>Risen</Filter>
+    </ClInclude>
+    <ClInclude Include="RisenWarlock.h">
+      <Filter>Risen</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>StandardResources</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>StandardResources</Filter>
+    </ClInclude>
+    <ClInclude Include="RangedAttack.h">
+      <Filter>Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="SplitShotAbility.h">
+      <Filter>Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="SelfBuffAbility.h">
+      <Filter>Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ValeMainMenu.h">
+      <Filter>MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="ValeButton.h">
+      <Filter>MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="ValeRectangle.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="WarlockSpell.h">
+      <Filter>Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Warden.h">
+      <Filter>Entities\Warden</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="ValeMaP_vmp_file_format.txt">
+      <Filter>misc</Filter>
+    </None>
+    <None Include="ValeStrings.txt">
+      <Filter>misc</Filter>
+    </None>
+    <None Include="small.ico">
+      <Filter>StandardResources</Filter>
+    </None>
+    <None Include="Vale.ico">
+      <Filter>StandardResources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="misc">
+      <UniqueIdentifier>{c01358f3-c29b-44c0-a7c3-6c934bc98b42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{4aa156aa-89e8-4707-9d7f-4bd2fc5641e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Abilities">
+      <UniqueIdentifier>{6d0869e3-d5e2-4d44-aaff-b87065524eb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision">
+      <UniqueIdentifier>{f0866ae8-2328-4342-95a1-5795798f4ae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ParticleSystem">
+      <UniqueIdentifier>{e3728ff0-4143-4d37-aff1-319279ebb2c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseFramework">
+      <UniqueIdentifier>{19b31e2c-3ec0-44ca-b9c5-0522f7adf3aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HUD">
+      <UniqueIdentifier>{a3a137f9-3889-43be-8866-15d86fba2bce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Risen">
+      <UniqueIdentifier>{b6f3d73c-8b9d-43db-a72f-153acd283cf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StandardResources">
+      <UniqueIdentifier>{f51381d3-0d7a-4df0-a916-3323b4b4cc97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainMenu">
+      <UniqueIdentifier>{ef53c1e4-1a3b-48f4-b2a1-a752f3f840f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Warden">
+      <UniqueIdentifier>{6e4f36ca-71f8-4427-8e86-fb100d67dce5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Vale.rc">
+      <Filter>StandardResources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
