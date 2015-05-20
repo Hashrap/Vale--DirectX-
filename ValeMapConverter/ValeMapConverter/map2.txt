@@ -1,0 +1,19 @@
+Map 0
+16
+16
+xxxxxxxxxxxxxxxx
+xffffffxxffffffx
+xxxffffxxxxffffx
+xffffxxxxffffxxx
+xxffffxxxxffffxx
+xxxxfffffffffffx
+xxfffffffffffffx
+xxxfffffffxxxxxx
+xxxxffffffffxxxx
+xffffffffffffffx
+xxxffffffffffffx
+xffffffxxffffxxx
+xxffffxfffffffxx
+xxxxfffffffffffx
+xxfffffxxxfffffx
+xxxxxxxxxxxxxxxx

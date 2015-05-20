@@ -1,0 +1,14 @@
+Map C
+8
+8
+tttttttt
+tfffffft
+tfffffft
+tfffffft
+tfffffft
+tfffffft
+tfffffft
+tttttttt
+ps(1,1)
+0
+0
